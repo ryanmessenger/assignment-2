@@ -20,6 +20,10 @@ h1{
   font-family: sans-serif;
   text-indent: 20px;
 }
+h6{
+  padding-bottom: 100px;
+  margin-left: 0 auto;
+}
 body{
   width: 800px;
   height: auto;
@@ -29,7 +33,7 @@ body{
   box-shadow: 0 9px 18px 9px;
 }
 main{
-  padding: 100px;
+  padding: : 10px;
 }
 h1::first-letter{
   font-size: 170%;
@@ -67,11 +71,12 @@ h3{
   text-indent: 35px;
 }
 header{
-  padding: 0;
   border-bottom: 2px solid black;
   background-image: linear-gradient(45deg, white, orange, black);
 }
 footer{
+  margin-bottom: 0;
+  border-top: 300px white;
   border-top: 2px solid black;
   padding: 10px;
   background-image: linear-gradient(45deg, black, orange, white);
