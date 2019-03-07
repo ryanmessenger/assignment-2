@@ -1,17 +1,9 @@
 p{
   font-family: sans-serif;
   text-indent: 20px;
-  text-align: center;
 }
-h1{
-  margin: 0 auto;
-}
-h4{
-  margin: 0 auto;
-}
-img{
-  margin: 0 auto;
-}
+
+
 html{
   background-image: url("../images/bats.gif");
 }
@@ -38,12 +30,25 @@ main{
 h1::first-letter{
   font-size: 170%;
 }
-img{
+header img{
   float: left;
 }
+#sidebar{
+  float: left;
+  padding-right: : 100px;
+}
+h6{
+  padding-bottom: 500px;
+
+}
+ul{
+float: left;
+}
+
 li{
   color: black;
   padding-bottom: 1%;
+
 }
 a:link{
   color: orange;
@@ -83,12 +88,8 @@ footer{
   text-align: center;
   font-size: 80%;
 }
-.main{
-  float :right;
-}
-.links{
-  float: left;
-}
-.headder{
 
+.sidebar{
+  float: left;
+  background-color: white;
 }
