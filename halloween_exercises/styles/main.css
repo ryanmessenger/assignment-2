@@ -1,9 +1,35 @@
 p{
   font-family: sans-serif;
+  text-indent: 20px;
+  text-align: center;
+}
+h1{
+  margin: 0 auto;
+}
+h4{
+  margin: 0 auto;
+}
+img{
+  margin: 0 auto;
+}
+html{
+  background-image: url("../images/bats.gif");
 }
 h1{
   font-size: 90%;
   font-family: sans-serif;
+  text-indent: 20px;
+}
+body{
+  width: 800px;
+  height: auto;
+  margin: 0 auto;
+  background-color: white;
+  border: 3px solid black;
+  box-shadow: 0 9px 18px 9px;
+}
+main{
+  padding: 100px;
 }
 h1::first-letter{
   font-size: 170%;
@@ -22,22 +48,42 @@ a:link{
 a:hover, a:focus{color : green}
 h4{
   font-weight: bolder;
+  text-indent: 20px;
   font-size: 130%
 }
+ul{
+  float: left;
+}
+
 h2{
+  padding: 0;
   font-family: sans-serif;
-  color: orange;
-  font-style: italic;
   text-indent: 35px;
-  text-shadow: 2px 2px black;
   font-size: 225%;
-  padding-bottom: 0%;
 }
 h3{
+  padding: 0;
   font-weight:bolder;
   text-indent: 35px;
 }
+header{
+  padding: 0;
+  border-bottom: 2px solid black;
+  background-image: linear-gradient(45deg, white, orange, black);
+}
 footer{
+  border-top: 2px solid black;
+  padding: 10px;
+  background-image: linear-gradient(45deg, black, orange, white);
   text-align: center;
   font-size: 80%;
+}
+.main{
+  float :right;
+}
+.links{
+  float: left;
+}
+.headder{
+
 }
